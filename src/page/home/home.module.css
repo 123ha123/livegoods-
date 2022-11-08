@@ -1,0 +1,79 @@
+.header{
+    height: 0.86rem;
+    background-color: #ff555f;
+    display: flex;
+    line-height: 0.86rem;
+    color:#fff
+}
+.location{
+    width: 1.5rem;
+    text-align: center;
+    font-size: 0.28rem;
+    /* 单行省略 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.location>a{
+    color:#fff
+}
+.search{
+    /* 占据剩余空间的一整份 */
+    flex: 1;
+}
+.ipt{
+    height: .5rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    margin-top: 0.17rem;
+}
+.shopcar{
+    font-size: 00.28rem;
+    width: 1rem;
+    text-align: center;
+}
+
+/* ---------------banner */
+.banner{
+    height: 3.2rem;
+    /* background-color: pink; */
+}
+
+/* -----------------commend */
+.commend{
+    box-sizing: border-box;
+    height: 1.5rem;
+    /* background-color: pink; */
+    margin-top: 0.2rem;
+    padding-left:1.2rem ;
+    padding-top: 0.3rem;
+    
+}
+.commend>div{
+    text-align: center;
+    line-height: 1rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: #ff5555;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 00.1rem;
+    font-size: 0.3rem;
+    font-weight: 600;
+    
+
+}
+.commend a{
+    color: #fff;
+}
+
+/* ----------------hotHouse */
+.hotHouse{
+    margin-top: 0.1rem;
+    font-size: 0.26rem;
+}
+.hotHouse>h2{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+

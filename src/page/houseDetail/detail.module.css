@@ -1,0 +1,67 @@
+:global(.adm-jumbo-tabs-tab-active){
+    color:#ff5555;
+}
+.box{
+    margin: 0.16rem;
+    height: 1rem;
+    padding: 0.2rem 0;
+    background-color: #fff;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.1);
+    border-radius: 0.1rem;
+    /* display: flex; */
+    font-size: 0.32rem;
+    text-align: center;
+}
+.color{
+    display: block;
+    color: #ff5555;
+    margin-bottom: 0.2rem;
+    margin-top: 0.1rem;
+}
+.info{
+    font-size: 0.35rem;
+    padding-left: 0.1rem;
+    padding-top: 0.1rem;
+}
+.info>p{
+    display: block;
+    line-height: 0.5rem;
+    margin-bottom: 0.1rem;
+
+}
+/* 房源评价 */
+.commit{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.2rem;
+    font-size: 0.28rem;
+}
+.commit>p{
+    display: block;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    line-height: 0.4rem;
+}
+.commit>div{
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+/* 底部的收藏和购买 */
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff5555;
+    height: 0.8rem;
+    display: flex;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.3rem;
+    padding: 0.1rem;
+}
+.footer>.ele{
+    flex: 1;
+}
+.ele:first-child{
+    border-right: solid 1px #eee;
+}
